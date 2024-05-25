@@ -1,9 +1,15 @@
 <h1>Boilerplate - Express com typescript</h1>
 
-<br />
-
 <h3>Ferramentas</h3>
 
 <ul>
-<li>teste</li>
+    <li>Typescript</li>
+    <li>Jest</li>
+    <li>Prisma</li>
 </ul>
+
+<h3>Setup</h3>
+
+<ol>
+    <li>teste</li>
+</ol>
