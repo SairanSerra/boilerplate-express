@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016" ,
+    "module": "commonjs" ,
+    "esModuleInterop": true ,
+    "forceConsistentCasingInFileNames": true ,
+    "strict": true ,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/infra/*": ["./@core/infra/*"],
+      "@/use-case/*": ["./@core/use-case/*"],
+      "@/domain/*": ["./@core/domain/*"],
+      "@/routes/*": [
+        "./@core/infra/routes/*"
+      ]
+    },
+  }
+}
